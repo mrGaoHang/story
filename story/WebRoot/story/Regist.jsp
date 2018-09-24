@@ -9,8 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>注册</title>
-    
+    <title>部门编辑</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -27,7 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			padding: 0px;
 		}
 	
-		#userEditTable{
+		#deptEditTable{
 			font-size: 15px;
 			border-collapse: collapse;
 			width: 350px;
@@ -36,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			
 		}
 		
-		#userEditTable td{
+		#deptEditTable td{
 			height: 40px;
 		}
 	
@@ -44,47 +43,47 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-   	<form action="story/Regist" method="post">
+   	<form action="story/addUser" method="post">
    	
-   	<table id = "userEditTable">
+   	<table id = "deptEditTable">
    		<tr>
    			<td>
-   			用户名：
+   			用户名:
    			</td>
    			<td>
-   				<input type = "text" name="username id="username"/>
+   				<input type = "text" name="username" id="deptNo"/>
    			</td>
    		</tr>
    		<tr>
    			<td>
-   			密码：
+   			密码:
    			</td>
    			<td>
-   				<input type = "password" name="password" id="password" />
-   			</td>
-   		</tr>  
-
-   		<tr>
-   			<td>
-   			性别：
-   			</td>
-   			<td>
-   				<input type = "text" name="sex" />
+   				<input type = "password" name="password" id="deptName"/>
    			</td>
    		</tr>  
 
    		<tr>
    			<td>
-   			电话：
+   			性别:
    			</td>
    			<td>
-   				<input type = "text" name="phone"/>
+   				<input type = "text" name="sex" id="deptLoc"/>
+   			</td>
+   		</tr>  
+
+   		<tr>
+   			<td>
+   			电话:
+   			</td>
+   			<td>
+   				<input type = "text" name="phone" id="deptMaster"/>
    			</td>
    		</tr>  
    		
    		<tr>
    			<td colspan="2">
-   				<input type = "submit" value="注册"/>
+   				<input type = "submit" value="添加"/>
    				<input type = "reset" value="重置"/>
    			</td>
    		</tr>  	

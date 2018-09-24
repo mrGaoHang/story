@@ -13,7 +13,7 @@ public class Test{
 		UserService userService = (UserService) ObjectFactory.getBean("userService");
 		
 		User user = new User();
-		user.setUsername("asd");
+		user.setUsername("hndgha");
 		user.setPassword("123");
 		user.setSex("Ů");
 		user.setPhone("110112");
@@ -24,7 +24,6 @@ public class Test{
 			System.out.println(e.getMessage());
 		}
 
-		UserService userService1 = (UserService) ObjectFactory.getBean("userService");
 		
 		
 		

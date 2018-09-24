@@ -1,0 +1,93 @@
+@CHARSET "utf-8";
+
+.four-right img{
+	height: 125px;
+	width: 229px;
+}
+.td1{
+	color: #D1DEE0;
+	background-color: #666666;
+	
+}
+.td3{
+	color: #D1DEE0;
+	background-color: #666666;
+	
+}
+.td4{
+	color: #D1DEE0;
+	background-color: #666666;
+	
+}
+.td5{
+	color: #D1DEE0;
+	background-color: #666666;
+	
+}
+.table-2-biao{
+	height: 300px;
+	width: 255px;
+	
+}
+.table-3-biao{
+	height: 300px;
+	width: 255px;
+	
+}.table-4-biao{
+	height: 300px;
+	width: 255px;
+	
+}.table-5-biao{
+	height: 300px;
+	width: 255px;
+	
+}
+.table-2 a{
+	text-decoration: none;
+}
+.table-2 a:LINK {
+	color: #666666;
+}
+.table-2 a:ACTIVE {
+	color: #666666;
+}
+.table-3 a{
+	text-decoration: none;
+}
+.table-3 a:LINK {
+	color: #666666;
+}
+.table-3 a:ACTIVE {
+	color: #666666;
+}
+.table-4 a{
+	text-decoration: none;
+}
+.table-4 a:LINK {
+	color: #666666;
+}
+.table-4 a:ACTIVE {
+	color: #666666;
+}
+.table-5 a{
+	text-decoration: none;
+}
+.table-5 a:LINK {
+	color: #666666;
+}
+.table-5 a:ACTIVE {
+	color: #666666;
+}
+.five-right table{
+	height: 300px;
+	width: 230px;
+}
+.table-wwxf-biao a{
+	text-decoration: none;
+}
+.table-wwxf-biao a {
+	color: #666666;
+}
+.table-wwxf-biao a {
+	color: #666666;
+}

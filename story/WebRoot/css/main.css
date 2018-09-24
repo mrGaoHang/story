@@ -1,0 +1,350 @@
+@CHARSET "UTF-8";
+
+
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.first {
+	width: 60%;
+	height: 30px;
+	margin: 0px auto;
+}
+
+.first-1 {
+	font-family: cursive;
+	font-size: 20px;
+	width: 12%;
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+
+.first-2 {
+	font-family: cursive;
+	font-size: 20px;
+	width: 25%;
+	height: 30px;
+	float: right;
+	text-align: center;
+}
+
+.second {
+	border: 1px solid #F1F1F1;
+	height: 65px;
+	width: 60%;
+	margin: 0px auto;
+}
+
+.second-1 {
+	border: 1px solid #F1F1F1;
+	width: 158px;
+	float: left;
+}
+
+.second-2 {
+	border: 1px solid #F1F1F1;
+	width: 200px;
+	float: right;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.third {
+
+	border-bottom: 7px solid #8DC61E;
+	width:60%;
+	height: 40px;
+	margin: 0px auto;
+}
+
+li{
+list-style-type: none
+}
+#menu li {
+
+	width:15%;
+	height: 40px;
+	float:left;
+	font-weight: bold;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+#menu li:HOVER{
+	background-color:#8DC61E;
+	
+}
+
+	
+
+.fourth {
+
+	height: 1200px;
+	width: 60%;
+	margin: 10px auto;
+}
+
+.fourth-1 {
+	border: 1px solid #FBFBFB;
+	height: 400px;
+	width: 75%;
+	margin-top: 10px 0px;
+	float: left;
+}
+	.fourth-1-1 {
+	
+	height: 400px;
+	width: 45%;
+	float: left;
+	}
+	.fourth-1-2{
+	border: 1px solid red;
+	height: 400px;
+	width: 54.5%;
+	margin: 0px 0px;
+	float: right;
+	}
+
+.fourth-2 {
+	border: 1px solid #FBFBFB;
+	height: 280px;
+	width: 24.5%;
+	margin-top: 10px 0px;
+	float: right;
+}
+	.fourth-2-1 {
+	
+	font-family: cursive;
+	font-size: 20px;
+	height: 22px;
+	width: 45%;
+	margin:15px 10px;
+	text-align: center;
+	}
+	.fourth-2-2 {
+	
+	height: 30px;
+	width: 80%;
+	margin:10px 10px;
+	float: left;
+	}
+	.fourth-2-3 {
+
+	height: 30px;
+	width: 80%;
+	margin:10px 10px;
+	float: left;
+	}
+	.fourth-2-4 {
+	height: 32px;
+	width: 72px;
+	margin:10px 10px;
+	float: left;
+	}
+	button{
+	height: 30px;
+	width: 70px;
+	background:#8DC61E;
+	color:#FFFFFF;
+	}
+
+.fourth-3 {
+	border: 1px solid #FBFBFB;
+	height: 420px;
+	width: 24.5%;
+	margin: 0px 0px;
+	float: right;
+}
+	.fourth-3-1 {
+	
+	height: 30px;
+	width: 100%;
+	margin:15px 10px;
+	float: left;
+	}
+	.fourth-3-2 {
+
+	height: 100px;
+	width: 100%;
+
+	float: left;
+	}
+	.fourth-3-3 {
+
+	height: 240px;
+	width: 100%;
+	margin:15px 10px;
+	float: left;
+	}
+
+
+.fourth-4 {
+
+	border: 1px solid #FBFBFB;
+	height: 350px;
+	width: 75%;
+	margin: 0px 0px;
+	float: left;
+}
+.fourth-4-1 {
+
+	border: 1px solid #FBFBFB;
+	height: 350px;
+	width: 50%;
+	margin: 0px 0px;
+	float: left;
+}
+	.fourth-4-1-1 {
+
+	font-size:20px;
+	height: 40px;
+	width: 50%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fourth-4-1-2 {
+	
+	height: 60px;
+	width: 50%;
+	margin: 0px 10px;
+	float: left;
+    }
+    .fourth-4-1-3 {
+	background:gray;
+	height: 40px;
+	width: 90%;
+	margin: 10px 10px;
+	float: left;
+	}
+	.fourth-4-1-4 {
+	
+	height: 120px;
+	width: 55%;
+	margin: 5px 10px;
+	float: left;
+	}
+.fourth-4-2 {
+
+	height: 350px;
+	width: 49.5%;
+	margin: 0px 0px;
+	float: left;
+}
+	.fourth-4-2-1 {
+
+	font-size:20px;
+	height: 40px;
+	width: 50%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fourth-4-2-2 {
+	
+	height: 60px;
+	width: 50%;
+	margin: 0px 10px;
+	float: left;
+    }
+    .fourth-4-2-3 {
+	background:gray;
+	height: 40px;
+	width: 90%;
+	margin: 10px 10px;
+	float: left;
+	}
+	.fourth-4-2-4 {
+	
+	height: 120px;
+	width: 55%;
+	margin: 5px 10px;
+	float: left;
+	}
+.fourth-5 {
+	border: 1px solid #FBFBFB;
+	height: 350px;
+	width: 75%;
+	margin: 0px 0px;
+	float: left;
+}
+.fourth-5-1 {
+	
+	height: 350px;
+	width: 50%;
+	margin: 0px 0px;
+	float: left;
+}
+	.fourth-5-1-1 {
+
+	font-size:20px;
+	height: 40px;
+	width: 50%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fourth-5-1-2 {
+	
+	height: 60px;
+	width: 50%;
+	margin: 0px 10px;
+	float: left;
+    }
+    .fourth-5-1-3 {
+	background:gray;
+	height: 40px;
+	width: 90%;
+	margin: 10px 10px;
+	float: left;
+	}
+	.fourth-5-1-4 {
+	
+	height: 120px;
+	width: 55%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fourth-5-2 {
+	
+	height: 350px;
+	width: 49.5%;
+	margin: 0px 0px;
+	float: left;
+}
+	.fourth-5-2-1 {
+
+	font-size:20px;
+	height: 40px;
+	width: 50%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fourth-5-2-2 {
+	
+	height: 60px;
+	width: 50%;
+	margin: 0px 10px;
+	float: left;
+    }
+    .fourth-5-2-3 {
+	background:gray;
+	height: 40px;
+	width: 90%;
+	margin: 10px 10px;
+	float: left;
+	}
+	.fourth-5-2-4 {
+	
+	height: 120px;
+	width: 55%;
+	margin: 5px 10px;
+	float: left;
+	}
+	.fifth {
+	
+	height: 185px;
+    width:60%;
+	margin: 0px auto;
+
+	}
+

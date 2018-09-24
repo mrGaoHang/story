@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService{
 			} catch (SQLException e1) {
 				e1.printStackTrace();
 			}
-			throw new UserException("用户名重复");
+			
 		}
 		
 	}

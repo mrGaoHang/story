@@ -4,20 +4,23 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <servlet-name>registServlet</servlet-name>
-    <servlet-class>com.jsyunsi.servlet.RegistServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>registServlet</servlet-name>
-    <url-pattern>/story/Regist</url-pattern>
-  </servlet-mapping>
+  
   <servlet>
     <servlet-name>loginServlet</servlet-name>
     <servlet-class>com.jsyunsi.servlet.LoginServlet</servlet-class>
   </servlet>
+  <servlet>
+  <servlet-name>addUserServlet</servlet-name>
+  <servlet-class>com.jsyunsi.servlet.AddUserServlet</servlet-class>
+  
+  
+  </servlet>
   <servlet-mapping>
     <servlet-name>loginServlet</servlet-name>
     <url-pattern>/story/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>addUserServlet</servlet-name>
+  <url-pattern>/story/addUser</url-pattern>
   </servlet-mapping>
 </web-app>
